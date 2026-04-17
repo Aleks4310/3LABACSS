@@ -1,0 +1,223 @@
+
+.header {
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    color: red;
+    background-color: lightblue;
+    height: 30px;
+    line-height: 30px;
+    font-size: 36px;
+    margin-bottom: 5px;
+
+}
+
+.menu {
+    width: 100%;
+    background-color: lightblue;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px black;
+}
+
+.menuelem {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 2px;
+    border-right: 1px solid black;
+    text-align: center;
+    float:left;
+    margin-right: 1px;
+    padding: 0px 5px;
+}
+
+.side {
+    background-color: lightblue;
+    float: left;
+    width: 15%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    padding: 10px;
+    padding-bottom: 25px;
+    margin-top: 5px;
+}
+
+.sideel {
+    background-color: rgb(196, 227, 238);
+    box-shadow: 1px 1px 5px black;
+    border-radius: 5px;
+    overflow-wrap: break-word;
+    padding:5px;
+    margin: 5px;
+}
+
+.rightside {
+    background-color: lightblue;
+    float: right;
+        width: 15%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    padding: 10px;
+    padding-bottom: 25px;
+    margin-top: 5px;
+}
+
+.h {
+    background-color: rgb(127, 192, 230);
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-text {
+    font-size: 12px;
+}
+
+.mainside {
+    margin: 5px;
+    background-color: lightblue;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+.photo {
+display: inline-block;
+position: relative;
+}
+
+.photo:hover::after {
+content: attr(title);
+position: absolute;
+left: 0; right: 0; bottom: 5px;
+z-index: 1;
+background: rgba(75, 167, 0, 0.6);
+color: #fff;
+text-align: center;
+font-family: Arial, sans-serif;
+font-size: 11px;
+padding: 5px 10px;
+border: 1px solid #333; 
+}
+
+.first {
+    display: block;
+}
+
+.second {
+    display: block;
+    clear: both;
+    margin-top: 250px;
+    width: 100%;
+}
+.vertmenu {
+    width: 150px;
+}
+
+.vertmenu div {
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+    background-color: gray;
+    font-size:20px;
+    text-align:center;
+    display:block;
+    position: relative;
+}
+
+.vertmenu div:hover {
+    background-color: lightblue;
+}
+
+.vertmenu div .drop {
+    position: absolute;
+    display: none;
+    top: 0%;
+    left: 100%;
+}
+
+.drop_item {
+    position: relative;
+}
+
+.drop .drop_item {
+    text-decoration: none;
+    display: block;
+    background: linear-gradient(to bottom, gray,rgb(0, 184, 168));
+    color:black;
+    border-style: solid;
+    border-width: 0 0 5px 0;
+    border-radius: 2px;
+    padding: 8px 25px;
+}
+
+.drop .drop_item:hover {
+    background: rgb(0, 184, 168);
+}
+
+.vertmenu div:hover .drop {
+    display: block;
+}
+
+.second2 {
+    display: block;
+    margin-top: 50px;
+}
+
+.drop_item .drop1 {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 100%;
+}
+
+.drop_item:hover .drop1 {
+    display: block;
+}
+
+.third {
+    display: block;
+    margin-top: 50px;
+    padding: 15px 0;
+}
+
+.vertical-menu {
+    width: 200px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.18);
+    overflow: hidden;
+}
+
+
+.menu-title {
+    padding: 12px 16px;
+    background: linear-gradient(to bottom, #d4d7dc, #9ea3a9);
+    color: #222;
+    font-weight: bold;
+    text-align: center;
+}
+
+.link {
+    display: none;
+    padding: 12px 16px;
+    color: rgb(31, 39, 49);
+    text-decoration: none;
+    background: #fafbfc;
+    border-bottom: 1px solid #e3e5e8;
+}
+
+.menu-group:hover .link {
+    display: block;
+}
+
+.link:hover {
+    background: #457dbd;
+}
+
